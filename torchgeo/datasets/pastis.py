@@ -17,11 +17,11 @@ from torch import Tensor
 
 from .errors import DatasetNotFoundError
 from .geo import NonGeoDataset
-from .utils import Path, check_integrity, download_url, extract_archive
+from .utils import Path, check_integrity, download_url, extract_archive 
 
 
 class PASTIS(NonGeoDataset):
-    """PASTIS dataset.
+    """substation dataset.
 
     The `PASTIS <https://github.com/VSainteuf/pastis-benchmark>`__
     dataset is a dataset for time-series panoptic segmentation of agricultural parcels.
