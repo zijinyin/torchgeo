@@ -263,6 +263,7 @@ __all__ = (
     'SSL4EOLBenchmark',
     'SSL4EOL',
     'SSL4EOS12',
+    'SubstationSegmentation',
     'SustainBenchCropYield',
     'TropicalCyclone',
     'UCMerced',
