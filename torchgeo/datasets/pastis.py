@@ -12,7 +12,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import torch
 from matplotlib.colors import ListedColormap
-from matplotlib.figure import Figure
+from matplotlib.figure import Figure 
 from torch import Tensor
 
 from .errors import DatasetNotFoundError
